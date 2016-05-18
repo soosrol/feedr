@@ -4,7 +4,7 @@ function isRedirectedURI() {
 // Built by LucyBot. www.lucybot.com
 var url = "https://api.nytimes.com/svc/topstories/v2/home.json";
 url += '?' + $.param({
-  'api-key': "7d82bb2272964cb69a82487397c33b47"
+  'api-key': ""
 });
 $.ajax({
   url: url,
